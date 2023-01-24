@@ -7,6 +7,7 @@
 header{
     background-image: url('img/jumbo.png');
     background-size: contain;
+    padding-bottom: 50px;
 }
 
 nav{
@@ -133,14 +134,18 @@ li{
     
 }
 
-main{
-    min-height: 800px;
+.background2{
+    background-color: #d8d8d8;
+}
+
+.middle-section{
+    min-height: 400px;
     max-width: 1000px;
     min-width: 700px;
     margin: auto;
     padding-top: 20px;
 
-    background-color: violet;
+    /* background-color: violet; */
   
 
     display: flex;
@@ -148,31 +153,49 @@ main{
     flex-wrap: wrap;
     justify-content: center;
     align-content: space-around;
-    gap: 5px;
-   
+    
+   }
 
+.wave1, .wave2{
+    opacity: 0.15;
 }
 
-/* .section-box1, .section-box2 */
+.wave1{
+    margin-bottom: -3px;
+}
+.wave2{
+    transform: rotate(180deg);
+}
 
 .box1{
-    background-color: rgba(0, 0, 255, 0.404);
+    /* background-color: rgba(0, 0, 255, 0.404); */
    
-    height: 200px;
-    width: 400px;
+    min-height: 250px;
+    width: 350px;
     margin-bottom: 80px;
     margin-top: 100px;
+    padding-top: 20px;
+    font-size: 18px;
 }
 
 .box2{
-    background-color: rgba(0, 0, 255, 0.404);
+    /* background-color: rgba(0, 0, 255, 0.404); */
     
-    height: 200px;
+    height: 300px;
     width: 500px;
-     margin-bottom: 80px;
+    margin-bottom: 80px;
     margin-top: 100px;
+    flex-grow: 1;
 }
 
+.box-title{
+    padding-bottom: 20px;
+    
+}
+
+.box-ph{
+    line-height: 1.4em;
+}
 #main-section{
     min-height: 400px;
     background-color: chocolate;
