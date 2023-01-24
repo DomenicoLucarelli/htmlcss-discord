@@ -6,9 +6,22 @@
 }
 header{
     background-image: url('img/jumbo.png');
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
     padding-bottom: 50px;
 }
+li:hover{
+    background-color: #006dad;
+     transition: 0.7s;
+     cursor: pointer;
+}
+button:hover{
+    background-color: #006dad;
+     transition: 0.7s;
+     cursor: pointer;
+
+  }
 
 nav{
     max-width: 1000px;
@@ -161,7 +174,7 @@ li{
 }
 
 .wave1{
-    margin-bottom: -3px;
+    margin-bottom: -4px;
 }
 .wave2{
     transform: rotate(180deg);
